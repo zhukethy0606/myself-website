@@ -1,0 +1,18 @@
+src/
+├── app/
+│   ├── globals.css     # 全局样式 + 蓝灰白配色变量
+│   ├── layout.tsx      # 根布局 + SEO metadata
+│   └── page.tsx        # 主页（组合所有 section）
+└── components/
+    └── sections/
+        ├── Navbar.tsx          # 固定顶部导航（7 板块 + 移动端菜单 + 滚动高亮）
+        ├── Hero.tsx            # 首屏（姓名/定位/联系方式/CTA）
+        ├── Education.tsx       # 教育背景 + 语言能力
+        ├── CoreCapabilities.tsx# 核心能力速览（4 卡片）
+        ├── Projects.tsx        # 爱奇艺 VR/XR/AR（SCQA + Recharts 柱状图）
+        ├── Experience.tsx      # 其他实习经历（NIO/掌玩/美团）
+        ├── Gaming.tsx          # 游戏经历（6 分类卡片）
+        ├── EighteenDays.tsx    # 《十八天》游戏策划 + 二维码
+        ├── AITools.tsx         # AI 工具应用 + 技能标签
+        ├── Contact.tsx         # 联系信息 + 留言表单
+        └── Footer.tsx          # 页脚 + 回到顶部
